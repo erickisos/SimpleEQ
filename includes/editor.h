@@ -11,7 +11,7 @@
 #include <juce_graphics/juce_graphics.h>
 #include <juce_audio_processors/juce_audio_processors.h>
 
-#include "PluginProcessor.h"
+#include "processor.h"
 
 //==============================================================================
 /**

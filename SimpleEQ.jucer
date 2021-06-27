@@ -4,13 +4,13 @@
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
   <MAINGROUP id="nWj1Pf" name="SimpleEQ">
     <GROUP id="{8C55CA7B-1F6B-2813-2E19-7D01FBD23FF0}" name="Source">
-      <FILE id="jPIwKM" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
-      <FILE id="dHYdlf" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
-      <FILE id="RJNlMQ" name="PluginEditor.cpp" compile="1" resource="0"
-            file="Source/PluginEditor.cpp"/>
-      <FILE id="KyG575" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="jPIwKM" name="processor.cpp" compile="1" resource="0"
+            file="src/processor.cpp"/>
+      <FILE id="dHYdlf" name="processor.h" compile="0" resource="0"
+            file="includes/processor.h"/>
+      <FILE id="RJNlMQ" name="editor.cpp" compile="1" resource="0"
+            file="src/editor.cpp"/>
+      <FILE id="KyG575" name="editor.h" compile="0" resource="0" file="includes/editor.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
